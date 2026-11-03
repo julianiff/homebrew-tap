@@ -1,25 +1,25 @@
 class Teer < Formula
   desc "teer: the essence of every revision. Semantic code review in the terminal."
   homepage "https://github.com/julianiff/teer"
-  version "0.1.1"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/julianiff/teer/releases/download/v0.1.1/teer-aarch64-apple-darwin.tar.xz"
-      sha256 "a73d0161d1ba7742596cb1cdd242bb7e379267ce5a737e46e62a66fcd4404437"
+      url "https://github.com/julianiff/teer/releases/download/v0.2.0/teer-aarch64-apple-darwin.tar.xz"
+      sha256 "bddffe7b701490f7d27200450abad73a5a53449d27d789c66b976f517fa78d66"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/julianiff/teer/releases/download/v0.1.1/teer-x86_64-apple-darwin.tar.xz"
-      sha256 "29133d2d8aa269e1129a34b2c178b568d40278b005c5962cbb2b0fdd9bd07e1e"
+      url "https://github.com/julianiff/teer/releases/download/v0.2.0/teer-x86_64-apple-darwin.tar.xz"
+      sha256 "eb170401219b2acc93b63f82e7630f38503e845545ef30635a3b5b89cb8eb779"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/julianiff/teer/releases/download/v0.1.1/teer-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "6d701126b91ea7aab0de9ccceb1886fe5623ccc53ea82b8ff9e39aa4530f1e40"
+      url "https://github.com/julianiff/teer/releases/download/v0.2.0/teer-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "dbbdfd7390693c0b6370ac656d612b09c2d5e032bfb100d2b0418f5f14927c39"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/julianiff/teer/releases/download/v0.1.1/teer-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "492e50df3dbb7e957cc688ac15277aa898216d79a994b7595c0ba1d4ace6dafb"
+      url "https://github.com/julianiff/teer/releases/download/v0.2.0/teer-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "6b5dec7595de30ce74e62b22132031b1bcae1a6af6ca9d71eec626bb126e8980"
     end
   end
   license "Apache-2.0"
